@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="rml, juicio laboral, mercado laboral, mercado de trabajo, empleo, capital humano, recurso humano, antecedentes laborales, empresas, empleadores">  
+    <meta name="description" content="Ofrecemos acceso a nuestro archivo de antecedentes laborales de personas, a fin de reducir los riesgos jurídicos laborales del Capital Humano que pretende incorporarse a la empresa. También ofrecemos medir el nivel de satisfacción del Capital Humano dentro de las Empresas.">
+    <meta name="author" content="Ignacio Cima">
+    <meta name="copyright" content="Reporte de Mercado Lbaoral Inc.">
+    <meta name="robots" content="index">
+
+    <link rel="icon" href="imgs/rml_logo.ico">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Bebas+Neue&family=Lora&family=Oswald:wght@300&family=Playfair+Display+SC&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="/estilos/style.css">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="scripts/menssages.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $(".ocult").hide();
+
+        $(".h3_1").click(function(){
+           $(".o1").toggle(2000);
+        });
+
+        $(".h3_2").click(function(){
+           $(".o2").toggle(2000);
+        });
+
+        $(".h3_3").click(function(){
+           $(".o3").toggle(2000);
+        });
+        $("#contacto").validate({
+          rules: {
+            Nombre: {
+              required: true,
+              minlength: 3,
+              maxlength: 25
+            },
+            Email:{
+              required: true,
+              email: true
+            },
+            Motivo: {
+              required: true,
+              minlength: 10,
+              maxlength: 150
+            }, 
+          },
+          errorClass: "is-invalid",
+          validClass: "is-valid"
+        })
+      })
+    </script>
+
+    <title>Reporte de Mercado Laboral</title>
+  </head>
+  <body>
+    <header>
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center p-5 text-white">
+                    <h1 class="display-2">Reporte de Mercado Laboral</h1>
+                    <h2>Mejorando el mercado laboral Argentino</h2>
+                </div>
+                <div class="col-lg-6 col-md-12 p-3">
+                    <div class="container d-flex justify-content-center mx-auto">
+                        <img src="imgs/portada.png" alt="logo" height="500rem" class="vector">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+      <section class="section_clara">
+        <div class="container-fluid py-5 mt-4">
+          <div class="mx-auto row py-3">
+            <div class="col-12 pb-4">
+              <h3 class="text-center h3_1">Razón de Ser</h3>
+            </div> 
+          </div>
+          <div class="mx-auto row py-3 ocult o1">        
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center pb-5">
+              <img src="imgs/Office workers organizing data storage.png" class="vector_rs" alt="vector" height="400rem">
+            </div>
+            <div class="col-lg-6 col-md-12 p-4 d-flex align-items-center pb-5">
+              <p class="p_razon_ser">Nuestra razón de ser es brindarle a las personas una herramienta para conseguir trabajo en distintas áreas y empresas de la manera mas sencilla posible, 
+                optimizando también el proceso de selección para la persona encargada del mismo.</p>
+            </div>  
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container-fluid py-5 mt-3">
+          <div class="row mx-auto py-3">
+            <div class="col-12 pb-4">
+              <h3 class="text-center h3_2">Servicio</h3>
+            </div>
+          </div>
+          <div class="row mx-auto py-3 ocult o2">
+            <div class="col-lg-6 col-md-12 p-4">
+              <ul class="p_razon_ser pt-5 px-0">
+                <li class="py-3">
+                  Calificar  la mano de obra.
+                </li>
+                <li class="py-3">
+                  Valorar  la cultura y la conducta jurídico laboral de las personas.
+                </li>
+                <li class="py-3">
+                  Prevenir los vicios de los empleados problemáticos.
+                </li>
+                <li class="py-3">
+                  Reducir y evitar los conflictos laborales.
+                </li>
+                <li class="py-3">
+                  Proteger la actividad de las empresas al  reducir los riesgos jurídicos laborales.
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center">
+              <img src="imgs/servicio.png" alt="vector" height="500rem">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section_clara">
+        <div class="container-fluid py-5">
+          <div class="row py-3">
+            <div class="col-12 pb-4">
+              <h3 class="text-center h3_3">Contacto</h3>
+            </div>
+          </div>
+          <form id="contacto" action="https://formsubmit.co/reportemercadol@gmail.com" method="post" class="form-row mx-auto p-4 ocult o3">
+            <div class="form-group col-12">
+              <label for="">Nombre</label>
+              <input type="text" name="Nombre" class="form-control" id="txtNombre">
+            </div>
+            <div class="form-group col-12 ">
+              <label for="">Email</label>
+              <input type="email" name="Email" class="form-control" id="txtEmail">
+            </div>
+            <div class="form-group col-12">
+              <label for="">Motivo</label><br>
+              <textarea name="Motivo" id="txtArea" cols="45" rows="8" class="form-control" placeholder="Escriba aquí..." style="resize: none;"></textarea>
+            </div>
+            <div class="form-group col-lg-6 col-sm-12 text-center">
+              <button type="submit" class="btn bg-primary text-white mt-3">Enviar</button>
+            </div>
+            <div class="form-group col-lg-6 col-sm-12 text-center">
+              <button type="reset" class="btn bg-primary text-white mt-3">Cancelar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+  </body>
+</html>
