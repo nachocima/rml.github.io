@@ -11,7 +11,7 @@ header{
     box-shadow: 5px 10px 20px black;
 }
 img{
-    max-width: 35rem;
+    width: 35rem;
 }
 .navbar{
     position: sticky;
@@ -27,6 +27,7 @@ h1, h2{
 .vector{
     animation: vector;
     animation-duration: 3s;
+    width: 30rem;
 }
 h2{
     font-size: 1.5em;
@@ -69,7 +70,22 @@ form{
         width: 100%;
     }
 }
-
+@media screen and (max-width: 600px){
+    img{
+        width: 30rem;
+    }
+    .vector{
+        width: 25rem;
+    }
+}
+@media screen and (max-width: 400px){
+    img{
+        width: 25rem;
+    }
+    .vector{
+        width: 20rem;
+    }
+}
 @keyframes titulo{
     0%{
         opacity: 0;
