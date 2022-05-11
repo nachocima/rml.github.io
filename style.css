@@ -29,6 +29,10 @@ h1, h2{
     animation-duration: 3s;
     width: 30rem;
 }
+h1{
+    font-size: 5.3em;
+    font-weight: 100;
+}
 h2{
     font-size: 1.5em;
     font-weight: 100;
@@ -69,6 +73,9 @@ form{
     form{
         width: 100%;
     }
+    h1{
+        font-size: 5em;
+    }
 }
 @media screen and (max-width: 600px){
     img{
@@ -77,6 +84,9 @@ form{
     .vector{
         width: 25rem;
     }
+    h1{
+        font-size: 4.5em;
+    }
 }
 @media screen and (max-width: 400px){
     img{
@@ -84,6 +94,9 @@ form{
     }
     .vector{
         width: 20rem;
+    }
+    h1{
+        font-size: 3em;
     }
 }
 @keyframes titulo{
