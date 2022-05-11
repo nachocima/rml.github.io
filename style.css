@@ -10,6 +10,9 @@ header{
 .section_clara img{
     box-shadow: 5px 10px 20px black;
 }
+.div_img{
+    object-fit: contain;
+}
 img{
     width: 35rem;
 }
@@ -68,7 +71,20 @@ form{
     box-shadow: 5px 10px 20px black;
     width: 50%;
 }
-
+@media screen and (min-width: 1500px){
+    form{
+        width: 50%;
+    }
+    h1{
+        font-size: 6em;
+    }
+    img{
+        min-width: 30rem;
+    }
+    .vector{
+        width: 25rem;
+    }
+}
 @media screen and (max-width: 800px){
     form{
         width: 100%;
